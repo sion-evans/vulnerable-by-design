@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Profile Viewer</h2>
+<form>
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name" value="">
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name" value="">
+<input type="submit" value="Submit">
+</form>
+<script>
+
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+
+    var first_name = searchParams.get('first_name');
+    var last_name = searchParams.get('last_name');
+
+    document.write('<h4>First Name: ' + decodeURIComponent(first_name) + '</h4>');
+    document.write('<h4>Last Name: ' + decodeURIComponent(last_name) + '</h4>');
+
+ </script>
+</body>
+</html>
