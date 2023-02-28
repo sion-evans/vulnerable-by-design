@@ -18,7 +18,7 @@
 <h2>Company Search via PostgreSQL</h2>
 <form>
 <label for="company">Company:</label>
-<input type="text" id="company" name="company"><br><br>
+<input type="text" id="company" name="company">
 <input type="submit" value="Submit">
 </form>
 <table>
