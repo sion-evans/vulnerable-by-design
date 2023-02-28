@@ -18,3 +18,6 @@ Reflected Cross Site Scripting (XSS)
 
 ### company-information.php
 Stored Cross Site Scripting (XSS)
+
+### profile-viewer.html
+DOM-based Cross Site Scripting (XSS)
