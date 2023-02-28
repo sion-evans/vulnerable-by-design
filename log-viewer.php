@@ -21,7 +21,7 @@
 <?php
 
     if ( isset($_GET['log_file']) ) {
-        echo '<pre>' . file_get_contents('/var/log/nginx/' . $_GET['log_file']) . '/<pre>';
+        echo '<pre>' . file_get_contents('/var/log/nginx/' . $_GET['log_file']) . '<pre>';
     }
 
 ?>
