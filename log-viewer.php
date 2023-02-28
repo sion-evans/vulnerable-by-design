@@ -17,7 +17,6 @@
 </select>
 <input type="submit" value="Submit">
 </form>
-<code>
 <?php
 
     if ( isset($_GET['log_file']) ) {
@@ -25,7 +24,6 @@
     }
 
 ?>
-</code>
 </table>
 </body>
 </html>
